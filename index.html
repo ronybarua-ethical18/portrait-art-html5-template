@@ -30,8 +30,8 @@
         </div>
         <div class="content-area container">
             <div class="contents">
-                <h1>hunger strike</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab libero, saepe dolorum, tempore laboriosam veniam similique fugiat assumenda itaque, nesciunt hic nisi vitae cupiditate ipsam deserunt! Doloribus odio est soluta.</p>
+                <h1 class="wow fadeInDown">hunger strike</h1>
+                <p class="wow fadeInDown">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab libero, saepe dolorum, tempore laboriosam veniam similique fugiat assumenda itaque, nesciunt hic nisi vitae cupiditate ipsam deserunt! Doloribus odio est soluta.</p>
             </div>
         </div>
     </header>
@@ -40,11 +40,11 @@
     <!-- main section start -->
     <main class="">
         <ul class="social">
-            <li><a href=""><i class="fab fa-2x fa-facebook"></i></a></li>
-            <li><a href=""><i class="fab fa-2x fa-instagram"></i></a></li>
-            <li><a href=""><i class="fab fa-2x fa-twitter"></i></a></li>
+            <li class="wow fadeInDown" ><a href=""><i class="fab fa-2x fa-facebook"></i></a></li>
+            <li class="wow fadeInDown" data-wow-delay="1s"><a href=""><i class="fab fa-2x fa-instagram"></i></a></li>
+            <li class="wow fadeInDown" data-wow-delay="2s"><a href=""><i class="fab fa-2x fa-twitter"></i></a></li>
         </ul>
-        <div class="portrait-strategy commmon-margin container">
+        <div class="wow fadeInUp portrait-strategy commmon-margin container">
             <div class="portrait">
                 <i class="fas fa-3x fa-cogs"></i>
                 <p>Learn how to take beautiful portraits with minimal equipment; how light affects your images and how
@@ -67,7 +67,7 @@
             </div>
         </div>
 
-        <div class="artist commmon-margin">
+        <div class="wow fadeInUp artist commmon-margin">
             <div class="artist-image">
                 <img src="http://images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/11bcffed65b959c9981ed1de/peoplehomelessmalestreet.jpg"
                     alt="">
@@ -92,7 +92,7 @@
             </div>
         </div>
 
-        <div class="photography-quote commmon-margin">
+        <div class="wow fadeInUp photography-quote commmon-margin">
             <div class="quote">
                 <h2>portrait photography workshop</h2>
                 <hr>
@@ -105,7 +105,7 @@
             </div>
         </div>
 
-        <div class="photography-sample commmon-margin">
+        <div class="wow fadeInUp photography-sample commmon-margin">
             <div class="arts">
                 <img src="assets/img/1.jpg" alt="">
             </div>
@@ -136,7 +136,7 @@
             </div>
         </div>
 
-        <div class="biography commmon-margin">
+        <div class="wow fadeInUp biography commmon-margin">
             <div class="biography-details">
                 <h2>Jeff Morgan</h2>
                 <h4>biography</h4>
@@ -149,7 +149,7 @@
             </div>
         </div>
 
-        <div class="contact">
+        <div class=" wow fadeInUp contact">
             <div class="contact-form">
                 <input type="text" name="" placeholder="Enter your name" id="">
                 <input type="text" name="" placeholder="Enter your valid email address" id="">
@@ -175,7 +175,9 @@
     <!-- all javascript files are here -->
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
-    <script src="assets/js/main.js"></script>
+    <script>
+    new WOW().init();
+    </script>
 
 </body>
 
