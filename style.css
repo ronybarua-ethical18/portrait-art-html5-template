@@ -1,0 +1,210 @@
+/* online google font  */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    background: #000;
+    color: #fff;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Bebas Neue', cursive;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    letter-spacing: 5px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+.logo h3 {
+    margin: 0;
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 15px;
+    transition: all;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+header {
+    background-image: url(http://images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/069d5d4e0a965636b0647aaf/pexelsphoto.jpg);
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+textarea, input {
+    outline: none;
+    border: 1px solid #fff;
+    padding: 15px;
+    color: #fff;
+    display: block;
+    background: transparent;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+address {
+    display: block;
+}
+
+button {
+    outline: none;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 20px;
+    color: #000;
+    background-color: #fff;
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+i {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.commmon-margin {
+    margin-top: 100px;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.content-area, .social {
+    display: flex;
+    align-items: center;
+}
+
+.content-area {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+
+.social {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    right: 50px;
+}
+
+.portrait-strategy {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.portrait {
+    border-left: 2px solid #fff;
+    padding: 20px;
+}
+
+.artist {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.photography-quote {
+    display: flex;
+    justify-content: right;
+    width: 70%;
+    margin-left: auto;
+    text-align: right;
+    margin-right: 50px;
+}
+
+.photography-sample {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+.biography {
+    background-image: url(http://images03.nicepage.io/a1389d7bc73adea1e1c1fb7e/bacfa4d690985b9d93809440/pexelsphoto458497.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.biography-details {
+    width: 45%;
+    margin-left: 10%;
+}
+
+.contact {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(assets/img/8.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin-right: 10%;
+}
+.footer-title{
+    text-align: center;
+    padding:20px;
+}
