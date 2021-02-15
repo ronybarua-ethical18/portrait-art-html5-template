@@ -1,0 +1,48 @@
+
+@media only screen and (max-width: 991px) {
+	.portrait-strategy {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.artist {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.photography-sample {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.contact{
+		justify-content: center;
+		width:80%;
+		margin: auto;
+	}
+	
+}
+
+@media only screen and (min-width: 480px) and (max-width: 600px) {
+	
+	.portrait-strategy {
+		grid-template-columns: repeat(2, 1fr);
+	}
+	.artist {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.photography-sample {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.contact-form{
+		width:80%;
+		margin:auto;
+	}
+	
+}
+@media only screen and (max-width: 479px){
+	.portrait-strategy {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.artist {
+		grid-template-columns: repeat(1, 1fr);
+	}
+	.biography-details {
+		width: 80%;
+		margin:auto;
+	}
+}
